@@ -65,6 +65,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.124"
         app:srcCompat="@drawable/icono_miradores" />
-
+    
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Puede pulsar sobre cada punto de interés de la ruta para obtener información o puede pulsar el botón azul con el tick de la esquina inferior derecha"
+            android:textAlignment="center"/>
 
 </android.support.constraint.ConstraintLayout>
